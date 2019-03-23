@@ -1,4 +1,4 @@
-# Bài xx: Hướng dẫn sử dụng Gatling Recoder (Đơn giản)
+# Bài 2: Hướng dẫn sử dụng Gatling Recoder (Đơn giản)
 ---
 ## Tổng quan
 
