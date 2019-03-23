@@ -8,6 +8,9 @@ Gatling Recorder hỗ trợ người dùng sinh ra kịch bản test nhanh chón
 
 ### Mô hình
 
+![](/images/su-dung-gatling-recorder/galing-mohinh.png)
+
+
 Sau đây mình sẽ sử dụng công cụ Gatling Recoder để  quay lại thao tác giữa người dùng và một trang wordpress đơn giản
 
 ## Cách sử dụng Gatling Recoder
@@ -31,22 +34,23 @@ cd gatling-charts-highcharts-bundle-3.0.3/bin
 ./recorder.sh 
 ```
 
-pic 1
+![](/images/su-dung-gatling-recorder/pic1.png)
 
 Lưu ý:
-- (1) - Port sử dụng cho proxy
-- (2) - Tên Class hay tên kịch bản sẽ được tạo mới
-- (3) - Khi chỉ định xong 2 thông tin trên, chọn `start`
+
+- Bước 1.1: Lựa chọn Port sử dụng cho proxy
+- Bước 1.2: Nhập tên Class hay tên kịch bản sẽ được tạo mới
+- Bước 1.3: Khi chỉ định xong 2 thông tin trên, chọn `start`
 
 Kết quả
 
-pic 2
+![](/images/su-dung-gatling-recorder/pic2.png)
 
 ## Bước 2: Trỏ Proxy về Proxy server của Gatling Recorder
 
 Trong bài mình sẽ sử dụng Google Chrome
 
-pic 3
+![](/images/su-dung-gatling-recorder/pic3.png)
 
 - Bước 2.1: Truy cập đường dẫn `chrome://settings/`
 - Bước 2.2: Tìm kiếm từ khóa proxy
@@ -55,11 +59,11 @@ pic 3
 
 Kết quả
 
-pic 4
+![](/images/su-dung-gatling-recorder/pic4.png)
 
 - Bước 2.4: Tại giao diện quản trị Network, chọn settings
 
-pic 5
+![](/images/su-dung-gatling-recorder/pic5.png)
 
 - Bước 2.5: Lựa chọn Manual
 - Bước 2.6: Nhập HTTP Proxy bằng localhost port 8000
@@ -70,47 +74,57 @@ Sau khi trỏ thiết proxy Ubuntu về Proxy Server của Gatling Recorder, cá
 Lưu ý:
 - Sau khi quay xong kịch bản test, bạn cần phải disable proxy tại Ubuntu để có thể truy cập Internet bình thường
 
-pic 6
+![](/images/su-dung-gatling-recorder/pic6.png)
 
 ## Bước 3: Quay kịch bản
 
 Sau đây, mình sẽ thực hiện các thao tác sau trên trình duyệt, để tạo ra kịch bản ban đầu.
 
-Bước 1: Người dùng truy cập trang chủ
+### Bước 3.1: Người dùng truy cập trang chủ
+
+![](/images/su-dung-gatling-recorder/pic7.png)
 
 Kết quả
 
-Bước 2: Chuyển sang đọc một bài viết
+![](/images/su-dung-gatling-recorder/pic8.png)
 
-pic 8
+### Bước 3.2: Chuyển sang đọc một bài viết
+
+![](/images/su-dung-gatling-recorder/pic9.png)
 
 Kết quả
 
-pic 9
+![](/images/su-dung-gatling-recorder/pic9.png)
 
-Bước 3: Tìm kiếm một bài viết
+### Bước 3.3: Tìm kiếm một bài viết
 
-pic 10
+![](/images/su-dung-gatling-recorder/pic10.png)
 
-pic 11
+Kết quả
 
-Bước 4: Truy cập một bài viết trong danh sách có được từ bước 3
+![](/images/su-dung-gatling-recorder/pic11.png)
 
-pic 12
+### Bước 3.4: Truy cập một bài viết trong danh sách có được từ bước 3
 
-pic 13
+![](/images/su-dung-gatling-recorder/pic12.png)
 
-Bước 5: Người dùng trở về trang chủ
+Kết quả
 
-pic 14
+![](/images/su-dung-gatling-recorder/pic13.png)
 
-pic 15
+### Bước 3.5: Người dùng trở về trang chủ
+
+![](/images/su-dung-gatling-recorder/pic14.png)
+
+Kết quả
+
+![](/images/su-dung-gatling-recorder/pic15.png)
 
 ## Bước 4: Lưu kịch bản
 
-pic 16
+![](/images/su-dung-gatling-recorder/pic16.png)
 
-pic 17
+![](/images/su-dung-gatling-recorder/pic17.png)
 
 Kịch bản sau khi quay xong sẽ nằm trong được dẫn `Simulations folder`
 
@@ -118,7 +132,7 @@ Kịch bản sau khi quay xong sẽ nằm trong được dẫn `Simulations fold
 
 Kiểm tra đường dẫn `Simulations folder` và chúng ta được kết quả như sau
 
-pic 18
+![](/images/su-dung-gatling-recorder/pic18.png)
 
 ## Tổng kết
 
