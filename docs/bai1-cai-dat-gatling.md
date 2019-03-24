@@ -9,7 +9,7 @@ Trong bài mình sẽ sử dụng hệ điều hành Ubuntu 18.04 để cài Gat
 Lưu ý: Gatling.io chỉ tương thích với phiên bản JDK 8
 
 ```
-apt install openjdk-8-jdk -y
+sudo apt install openjdk-8-jdk -y
 ```
 
 Tải gói `Gatling.io`

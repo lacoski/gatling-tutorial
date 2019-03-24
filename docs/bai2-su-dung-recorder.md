@@ -92,10 +92,6 @@ Kết quả
 
 ![](/images/su-dung-gatling-recorder/pic9.png)
 
-Kết quả
-
-![](/images/su-dung-gatling-recorder/pic9.png)
-
 ### Bước 3.3: Tìm kiếm một bài viết
 
 ![](/images/su-dung-gatling-recorder/pic10.png)
