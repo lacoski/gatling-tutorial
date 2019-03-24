@@ -44,11 +44,12 @@ Tóm tắt các thao tác mình đã thực hiện:
 - Bước 4: Truy cập một bài viết trong danh sách có được từ bước 3
 - Bước 5: Người dùng trở về trang chủ
 
-![](/images/img-huong-dan-su-dung-gatling-test/pic3.png)
 
 Các step mình đóng khung là cách thao tác mình thực hiện trên trình duyệt được Gatling Recorder thu thập lại. Thông thường mỗi `exec` sẽ tương ứng với 1 thao tác trên trình duyệt
 
 Bây giờ chúng ta sẽ tập trung phân tích 1 step hay 1 thao tác. Ở đây mình sẽ phân tích bước 1, người dùng truy cập trang chủ.
+
+![](/images/img-huong-dan-su-dung-gatling-test/pic3.png)
 
 Tại bước 1, người dùng thực hiện thao tác truy cập trang chủ.
 
@@ -195,6 +196,7 @@ Lưu ý:
 
 - Có thể kết hợp nhiều kịch bản mô phỏng tải
 - Có thể thêm các kiểu dữ liệu, cú pháp ngôn ngữ scala để tạo nhiều kịch bản phức tạp hơn
+- Để xem thêm cách tạo tải, tham khảo thêm gatling cheetsheet
 
 ## Tổng kết
 

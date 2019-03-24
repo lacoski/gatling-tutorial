@@ -84,11 +84,13 @@ Sau đây, mình sẽ thực hiện các thao tác sau trên trình duyệt, đ�
 
 ![](/images/su-dung-gatling-recorder/pic7.png)
 
-Kết quả
+
+
+### Bước 3.2: Chuyển sang đọc một bài viết
 
 ![](/images/su-dung-gatling-recorder/pic8.png)
 
-### Bước 3.2: Chuyển sang đọc một bài viết
+Kết quả
 
 ![](/images/su-dung-gatling-recorder/pic9.png)
 
