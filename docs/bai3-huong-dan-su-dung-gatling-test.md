@@ -16,7 +16,7 @@ File kịch bản mình có được sau bài 2 có tên `RecordedSimulation.sca
 
 Cấu trúc tổng quát
 
-![](/images/su-dung-gatling-recorder/pic1.png)
+![](/images/img-huong-dan-su-dung-gatling-test/pic1.png)
 
 Theo cấu trúc mình sẽ chia thành 6 phần
 - (1): Khai báo các thư viện của Gatling
@@ -31,7 +31,7 @@ Trong file kịch bản chúng ta tạm không cần quan tâm tới các thành
 
 ### Phân tích kịch bản mô phỏng
 
-![](/images/su-dung-gatling-recorder/pic2.png)
+![](/images/img-huong-dan-su-dung-gatling-test/pic2.png)
 
 
 Tại kịch bản `scn`, mình đã chia thành 5 step lớn tương ứng với kịch bản mình quay trong bài 2.
@@ -44,7 +44,7 @@ Tóm tắt các thao tác mình đã thực hiện:
 - Bước 4: Truy cập một bài viết trong danh sách có được từ bước 3
 - Bước 5: Người dùng trở về trang chủ
 
-![](/images/su-dung-gatling-recorder/pic3.png)
+![](/images/img-huong-dan-su-dung-gatling-test/pic3.png)
 
 Các step mình đóng khung là cách thao tác mình thực hiện trên trình duyệt được Gatling Recorder thu thập lại. Thông thường mỗi `exec` sẽ tương ứng với 1 thao tác trên trình duyệt
 
