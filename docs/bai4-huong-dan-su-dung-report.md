@@ -2,7 +2,7 @@
 ---
 ## Tổng quan
 
-Một trong nhưng ưu điểm của Gatling khi đánh giá với các công cụ bench khác là khả năng xuất report đơn giản, dễ hiểu. Trong bài mình sẽ hướng dẫn các bạn sử dụng biểu đồ của gatling.
+Một trong nhưng ưu điểm của Gatling khi đánh giá với các công cụ benchmark web khác là khả năng xuất report đơn giản, dễ hiểu. Trong bài mình sẽ hướng dẫn các bạn đọc, phân tích biểu đồ của Gatling Report.
 
 ## Chuẩn bị
 
@@ -21,11 +21,11 @@ Mình sẽ thực hiện bài test tạo ra 150 user trong vòng 300 giây tức
 Biểu đồ 1 sẽ gồm biểu đồ `Indicatos` và `Number of request`. Biểu đồ 1 miêu tả tổng quan về phân phối phản hồi trong các phạm vi tiểu chuẩn cũng như các request thất bại
 
 Mặc định Gatling sẽ đánh giá phản hồi như sau:
-- Từ 0 - 800 ms là coi là phản hồi tốt (Phản hồi nhanh)
-- Từ 800 ms - 1200 ms (1.2 giây) là coi là phản hồi trung bình
-- Trên 1200 ms (1.2 giây) là coi là phản hồi chậm
+- Từ 0 - 800 ms: phản hồi tốt (Phản hồi nhanh)
+- Từ 800 ms - 1200 ms (1.2 giây): phản hồi trung bình
+- Trên 1200 ms (1.2 giây): là phản hồi chậm
 
-Chúng ta hoàn toàn có thể chỉnh sửa lại các ngưỡng trên
+Chúng ta có thể chỉnh sửa lại các ngưỡng trên bằng tùy chỉnh lại settings gatling
 
 ### Biểu đồ 2: Phân tích phản hồi của request
 
@@ -33,7 +33,7 @@ Chúng ta hoàn toàn có thể chỉnh sửa lại các ngưỡng trên
 
 Biểu đồ 2 phân tích phản hồi của các request đã thực hiện. Bảo gồm số request thành công, thất bại, tỷ lệ gửi request mỗi giây, phản hồi nhanh nhất và chậm nhất, trung bình trong khoảng ..
 
-Ngoài ra chúng ta có thể xem chi tiết phân tích 1 loại request để đánh giá, mục đính để đánh giá 1 tính năng xử lý nhanh hay chậm
+Ngoài ra chúng ta có thể xem chi tiết phân tích 1 loại request, mục tiêu đánh giá 1 tính năng xử lý nhanh hay chậm
 
 Ví dụ
 
@@ -154,7 +154,7 @@ Qua report mình thông tin mình có được:
 
 ![](/images/img-huong-dan-su-dung-report/pic17.png)
 
-Đồng thời, mình có cái một script giám sát đơn giản và thấy được tổng kết nối tới web cao nhất là 950 kết nối, sử dụng 1.4 GB Ram, 300M Swap, load trung bình của CPU là 3.10
+Đồng thời, mình một script giám sát đơn giản và thấy được tổng kết nối tới web cao nhất là 950 kết nối, sử dụng 1.4 GB Ram, 300M Swap, load trung bình của CPU là 3.10
 
 ## Nguồn
 
