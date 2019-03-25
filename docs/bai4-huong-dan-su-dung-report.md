@@ -154,7 +154,9 @@ Qua report mình thông tin mình có được:
 
 ![](/images/img-huong-dan-su-dung-report/pic17.png)
 
-Đồng thời, mình một script giám sát đơn giản và thấy được tổng kết nối tới web cao nhất là 950 kết nối, sử dụng 1.4 GB Ram, 300M Swap, load trung bình của CPU là 3.10
+Đồng thời, mình một script giám sát đơn giản và thấy được tổng kết nối tới web cao nhất là 950 kết nối, sử dụng 1.4 GB Ram, 300M Swap, load trung bình của CPU là 3.10.
+
+Đến đây mình đã giới thiệu các bạn các đọc và phân tích report, đến bài tiếp theo mình sẽ hướng dẫn các bạn các ước lượng ngưỡng của trang web.
 
 ## Nguồn
 
