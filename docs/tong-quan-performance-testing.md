@@ -22,7 +22,7 @@ Các tiêu chí đánh giá hiệu năng bao gồm
 
 ## Các loại kiểm thử hiệu năng thông dụng
 
-### Load testing
+### Load test
 Mô phỏng độ chịu tải của hệ thống. Thường là khi hệ thống hoạt động bình thường và khi có tải cao. Nhắm đánh giá sự ổn định khi sản phẩm chạy trong môi trường thực tế. Mục tiêu đánh giá khả năng đáp ứng hệ thống khi hoạt động bình thường và khi hoạt động tại giờ cao điểm.
 
 Ví dụ: Lập trình viên thiết kế ứng dụng có khả năng chịu tải 1000 người sử dụng đồng thời. Để kiểm chứng năng lực, họ sẽ tạo kịch bản load test với 1000 user giả lập, duy trì bài test trong 1-2 giờ để đánh giá khả năng hoạt động của ứng dụng.
@@ -33,13 +33,13 @@ Mô phỏng hệ thống khi quá tải, xác định khả năng hoạt động
 
 Ví dụ: Sau khi ước lượng được khả năng đáp ứng của ứng dụng là 1000 người truy cập đồng thời, lập trình viên quyết định tạo bài test với 1100 người dùng giả lập để kiến ứng dụng xảy ra sự cố để đánh giá khả năng phục hồi của ứng dụng.
 
-### Volume testing
+### Volume test
 
 Mô phỏng khả năng xử lý hệ thống đối với một lượng dữ liệu lớn. Mục tiêu bài test là đánh giá các vấn đề làm ảnh hưởng tới hiệu năng hệ thống khi phải xử lý lượng dữ liệu rất lớn
 
 Ví dụ: Các trang thương mại điện tử cần lưu trữ rất nhiều thông tin. Để đánh giá được hiệu năng của sản phẩm, lập trình viên quyết định tạo ra db với hàng triệu bản ghi, sau đó thực hiện query, cập nhật dữ liệu trên hệ thống để mổ phỏng các hoạt động thực tế của trang thương mại điện tử. Từ đó đánh giá được hiệu năng thực của sản phẩm.
 
-### Endurance testing
+### Endurance test
 
 Mô phỏng hệ thống hoạt động trong thời gian dài quá đó tìm ra các vấn đề về bộ nhớ, phân mảnh dữ liệu v.v.
 
