@@ -78,8 +78,11 @@ Phân tính log
 
 Mục tiêu thứ 2 của spike test là kiếm tra khả năng phục hồi, dựa theo log có được thời điểm 23:13:31 là thời điểm bắt đầu treo tạm thời (load trung bình 60) và tới đỉnh là 23:16:01 (load trung bình 112) và phải tới thời điểm 23:19:39 web mới bắt đầu ổn định trở lại (load trung bình 19.92). Vậy mình ước tính sẽ mất 4 phút để web có thể phục hồi khi xảy ra hiện tượng treo tạm thời.
 
+## Tổng kết
 
+Qua 2 bài kiểm thử load test và spike test mình đã có những thông tin cần thiết để ước lượng được ngưỡng truy cập ổn định trang web và thời gian để trang web phục hồi sau khi quá tải.
 
+Tới đây mình đã hướng dẫn các bạn ước lượng tải của Web bằng công cụ Gatling. Cám ơn các bạn đã quan tâm
 
 
 
